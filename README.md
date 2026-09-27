@@ -53,7 +53,7 @@ Only **9.4%** of respondents in this dataset report heart disease or a heart att
 | Recall (class 1) | 0% | **80%** |
 | Precision (class 1) | 0% | 21% |
 
-The overall accuracy *dropped*, but now the model is able to identify **80% of actual heart disease cases** instead of none. This is a positive trade-off in the health-screening context, since a false negative is way costlier than a false alarm. This highlights now precision is much better than raw accuracy in analyzing medical data. 
+The overall accuracy *dropped*, but now the model is able to identify **80% of actual heart disease cases** instead of none. This is a positive trade-off in the health-screening context, since a false negative is way costlier than a false alarm. This highlights that precision is much better than raw accuracy in analyzing medical data. 
 
 ## What this project demonstrates
 
@@ -66,7 +66,7 @@ The overall accuracy *dropped*, but now the model is able to identify **80% of a
 
 ```
 DeepNeuralNetwork.ipynb   # Full notebook: from-scratch framework, data pipeline, training, evaluation
-data/heart_disease.csv    # Heart Disease Health Indicators dataset (CSV)
+heart_disease.csv         # Heart Disease Health Indicators dataset (CSV)
 ```
 
 ## Running it
@@ -75,7 +75,7 @@ data/heart_disease.csv    # Heart Disease Health Indicators dataset (CSV)
 pip install numpy pandas scikit-learn matplotlib
 ```
 
-Open `DeepNeuralNetwork.ipynb` and run all cells. Data is loaded from `data/heart_disease.csv`, which is provided in the repository.
+Open `DeepNeuralNetwork.ipynb` and run all cells. Data is loaded from `heart_disease.csv`, which is provided in the repository.
 
 ## Possible extensions
 
